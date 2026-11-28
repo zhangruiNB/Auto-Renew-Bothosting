@@ -405,7 +405,7 @@ def main():
                 sb.sleep(3)
                 current_url = sb.get_current_url()
                 current_title = sb.get_title()
-                print(f"📝 当前URL: {current_url}, Title: {current_title}")
+                print(f"📝 当前URL: {current_url} Title: {current_title}")
 
                 if "/dash/billings" in current_url and "/login" not in current_url and "error=" not in current_url:
                     login_ok = True
